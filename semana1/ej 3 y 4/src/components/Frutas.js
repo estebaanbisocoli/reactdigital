@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import './Frutas.css'
-function createFruta (fruta) {
-  return React.createElement('li', null, fruta)
-}
-let lista = React.createElement('ul', null, createFruta("Manzana"), createFruta("Pera"), createFruta("Banana"))
-let titulo = React.createElement('h4', {className : 'titulo'}, "Lista de Frutas")
-let body = React.createElement('div', {className: 'container'}, titulo, lista)
+let misFrutas = ["Manzana", "Pera", "Banana"]
+const list = misFrutas.map((fruta) => (<li>{fruta}</li>))
 class Frutas extends Component {
   render() {
-    return body
+    return (
+      <div className="container">
+        <h4 className="titulo">Lista de Frutas</h4>
+        <ul>
+        {list}
+        </ul>
+      </div>
+    )
     
   }
 }

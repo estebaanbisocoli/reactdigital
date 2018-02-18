@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-let miPrimer = React.createElement('div', {className: 'App'}, null,
-                                    React.createElement('h1', {className: 'App-title'}, 'Mi Primer Componente'),
-                                    React.createElement('p', {className: 'App-intro'}, 'Practicando componentes sin jsx'))
 class Componente extends Component {
   render() {
-    return miPrimer
+    return (
+      <div className="App">
+        <h1 clasName="App-title">Mi Primer Componente</h1>
+        <p className="App-intro">Practicando crear elementos con jsx</p>
+      </div>
+    )
   }
 }
 
