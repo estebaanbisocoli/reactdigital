@@ -1,0 +1,27 @@
+
+.moviebox-container {
+  margin: 0;
+  padding: 0;
+  height: 250px;
+  width: 500px;
+  background: #F3F3F3;
+}
+.imagen {
+
+  float: left;
+}
+.texto {
+  margin-left: 180px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  color: #4A525D;
+}
+.parrafo {
+  font-size: 0.85em;
+  text-align: justif
+}
+.btn {
+  margin-left: 178px;
+  margin-top: 10px;
+}
