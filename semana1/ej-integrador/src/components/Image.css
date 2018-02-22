@@ -1,7 +1,3 @@
-canvas {
-  margin: 0;
-  padding: 0;
-  height: 250px;
-  width: 130px;
-  background:#DFE6ED;
+.image {
+  width: 100%;
 }

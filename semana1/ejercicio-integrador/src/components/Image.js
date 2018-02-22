@@ -3,7 +3,7 @@ import './Image.css'
 class Image extends Component {
   render() {
     return (
-        <img className="image" src={require('./box.svg')}></img>
+      <img src={require('./box.svg')} className="miImagen"></img>
     );
   }
 }

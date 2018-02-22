@@ -1,0 +1,35 @@
+
+.App {
+  text-align: center;
+  width: auto;
+  margin: auto;
+
+}
+
+.boton {
+  margin-bottom: 30px
+}
+.imagen {
+  display: inline-block;
+  width: 100px;
+}
+.box {
+  width: 300px;
+  margin: auto;
+}
+.content h4 {
+  text-align: left;
+  margin: 10px;;
+  padding: 0;
+  color: rgb(75, 75, 75);
+}
+.content p {
+  padding: 0px 5px 0px 5px;
+  text-align: left;
+  font-size: 0.56em;
+  line-height: 1.5;
+}
+.movie {
+  text-align: left;
+  margin: 0px 0px 0px 10px;
+}

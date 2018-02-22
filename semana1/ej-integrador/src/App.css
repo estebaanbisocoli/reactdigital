@@ -1,9 +1,12 @@
 .main-container {
-  margin-left:15%;
-  margin-right: 30%;
+  box-sizing: border-box;
+  justify-items: center;
+  margin: auto;
+  width: 80%;
 }
 .separator {
   margin: 10px 0px 20px 0px;
+  display: block;
 }
 .main-titulo {
   color: #4A525D;
