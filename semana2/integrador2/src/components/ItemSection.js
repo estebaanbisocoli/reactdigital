@@ -16,7 +16,7 @@ const movies = [
 const movieList = movies.map(element => {
   return (
   <div className="item" key={element.name}>
-    <a href="#">
+    <a href={(()=> {return "#"})()}>
       <img className="image-item" src={element.url} alt={element.name}></img>
     </a>
   </div>)})
@@ -30,5 +30,4 @@ class ItemSection extends Component {
     );
   }
 }
-
 export default ItemSection;

@@ -82,3 +82,25 @@ axios.get('https://pokeapi.co/api/v2/pokemon/pidgey')
 }).catch(e => {
   console.log(e)
 })
+
+// function testAsync(items) {
+//   return new Promise(resolve => {
+//     setTimeout(() => {
+//       resolve(items)
+//     },1000)
+//   })
+// }
+// testAsync([1,2,2]).then((items)=> {
+//   console.log(items)
+// })
+// async function asyncTestAsync() {
+//   try {
+//     const items = await testAsync([1,2,3,4])
+//     console.log(items)
+//   }
+//   catch (e) {
+//     console.log(e)
+//   }
+// }
+// asyncTestAsync()
+// console.log('primero')
