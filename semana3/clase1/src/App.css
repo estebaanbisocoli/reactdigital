@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+
+}
+.App {
+  position: relative;
+  height: 100vh;
+}
+.pokecaja {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

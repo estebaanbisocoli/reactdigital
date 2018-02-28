@@ -28,7 +28,7 @@ class App extends Component {
           textDecoration: 'underline',
           fontSize: '40px'
         }
-      }
+    }
 
     return (
       <div className="App">
