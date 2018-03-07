@@ -1,0 +1,4 @@
+- Características
+	• Tipografía de google fonts 'Raleway'
+	• #c7c7c7 | gris oscuro
+	• #508fb8 | celeste
